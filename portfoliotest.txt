@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Em(m)a</title>
+    <style>
+@font-face {
+    font-family: 'Ouvriere';
+    src: url('fonts/Ouvrieres-soldates.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+        body {
+            font-family: Ariel, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-family: 'Ouvriere', serif;
+            color: black;
+            margin-bottom: 5px;
+            font-size: 48px;
+        }
+
+        h2 {
+            font-weight: normal;
+            margin-top: 0;
+            margin-bottom: 40px;
+        }
+
+        .category {
+            margin: 20px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Em(m)a</h1>
+    <h2>Purée Adventure Studio</h2>
+
+    <div class="category">
+        <a href="https://puree-adventure.itch.io/">All games</a>
+    </div>
+
+    <div class="category">
+        <a href="https://puree-adventure.itch.io/">In Development</a>
+    </div>
+
+    <div class="category">
+        <a href="https://puree-adventure.itch.io/">About Thinking</a>
+    </div>
+
+    <div class="category">
+        <a href="https://puree-adventure.itch.io/">About Creativity</a>
+    </div>
+
+    <div class="category">
+        <a href="https://puree-adventure.itch.io/">Made with Collages</a>
+    </div>
+
+    <div class="category">
+        <a href="https://puree-adventure.itch.io/">Made with Handmade Drawings</a>
+    </div>
+
+    <div class="category">
+        <a href="https://puree-adventure.itch.io/">Contact</a>
+    </div>
+
+</body>
+</html>
